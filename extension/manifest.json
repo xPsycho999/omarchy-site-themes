@@ -95,7 +95,9 @@
         "sites/x.css"
       ],
       "js": [
-        "theme.js"
+        "theme.js",
+        "palette.js",
+        "sites/x-classic.js"
       ],
       "run_at": "document_start"
     },
