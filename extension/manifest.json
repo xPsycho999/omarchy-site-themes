@@ -246,6 +246,20 @@
         "sites/spotify-rules.js"
       ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://music.youtube.com/*"
+      ],
+      "css": [
+        "base.css",
+        "sites/youtube-music.css",
+        "sites/youtube-music-rules.css"
+      ],
+      "js": [
+        "theme.js"
+      ],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
@@ -283,7 +297,8 @@
         "*://facebook.com/*",
         "*://web.facebook.com/*",
         "*://mail.google.com/*",
-        "*://open.spotify.com/*"
+        "*://open.spotify.com/*",
+        "*://music.youtube.com/*"
       ]
     }
   ]
