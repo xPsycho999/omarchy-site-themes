@@ -231,6 +231,21 @@
         "theme.js"
       ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://open.spotify.com/*"
+      ],
+      "css": [
+        "base.css",
+        "sites/spotify.css"
+      ],
+      "js": [
+        "theme.js",
+        "palette.js",
+        "sites/spotify-rules.js"
+      ],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
@@ -267,7 +282,8 @@
         "*://www.facebook.com/*",
         "*://facebook.com/*",
         "*://web.facebook.com/*",
-        "*://mail.google.com/*"
+        "*://mail.google.com/*",
+        "*://open.spotify.com/*"
       ]
     }
   ]

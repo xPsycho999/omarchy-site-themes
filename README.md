@@ -22,6 +22,7 @@ does the recoloring, and an Omarchy hook keeps its palette in sync.
 | Reddit, YouTube, Google News, Gmail | The site's own design tokens, remapped. |
 | GitHub, Facebook | Design tokens, remapped by generator scripts in `tools/`. |
 | X | `--x-*` and shadcn tokens. Set X to a dark display mode (Settings > Display > Lights out or Dim). |
+| Spotify (web player) | Its Encore tokens. `sites/spotify-rules.js` maps the fixed colors of its CSS module classes at runtime. Spotify green becomes the accent. |
 | old Reddit, Penny Arcade, Edison Report, Inside Lighting, Daring Fireball, MMO-Champion, xkcd | The remap engine (below). |
 
 ## Install
