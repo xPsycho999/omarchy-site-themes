@@ -319,6 +319,19 @@
         "sites/map-filter.js"
       ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://gemini.google.com/*"
+      ],
+      "css": [
+        "base.css",
+        "sites/gemini.css"
+      ],
+      "js": [
+        "theme.js"
+      ],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
@@ -362,7 +375,8 @@
         "*://grok.com/*",
         "*://www.google.com/*",
         "*://maps.google.com/*",
-        "*://www.waze.com/*"
+        "*://www.waze.com/*",
+        "*://gemini.google.com/*"
       ]
     }
   ]

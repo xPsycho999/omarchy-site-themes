@@ -27,6 +27,7 @@ does the recoloring, and an Omarchy hook keeps its palette in sync.
 | WhatsApp | `sites/whatsapp.js` maps every fixed color (variables and StyleX rules) at runtime. Its green becomes the accent. |
 | Grok | Its shadcn-style tokens (dark mode). |
 | Google Maps, Waze | The remap engine for the panels. `sites/map-filter.js` recolors the map itself with an SVG filter: light land becomes the theme background, labels the theme text, hues stay. Satellite and Street View stay unfiltered. |
+| Gemini | Its Material 3 roles (`--gem-sys-color--*`) and app colors (`--bard-color-*`), in light and dark mode. |
 | old Reddit, Penny Arcade, Edison Report, Inside Lighting, Daring Fireball, MMO-Champion, xkcd | The remap engine (below). |
 
 ## Install
