@@ -260,6 +260,20 @@
         "theme.js"
       ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://web.whatsapp.com/*"
+      ],
+      "css": [
+        "base.css"
+      ],
+      "js": [
+        "theme.js",
+        "palette.js",
+        "sites/whatsapp.js"
+      ],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
@@ -298,7 +312,8 @@
         "*://web.facebook.com/*",
         "*://mail.google.com/*",
         "*://open.spotify.com/*",
-        "*://music.youtube.com/*"
+        "*://music.youtube.com/*",
+        "*://web.whatsapp.com/*"
       ]
     }
   ]
