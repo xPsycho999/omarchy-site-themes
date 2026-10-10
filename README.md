@@ -25,6 +25,7 @@ does the recoloring, and an Omarchy hook keeps its palette in sync.
 | Spotify (web player) | Its Encore tokens. `sites/spotify-rules.js` maps the fixed colors of its CSS module classes at runtime. Spotify green becomes the accent. |
 | YouTube Music | Its named palette and semantic tokens. `tools/gen-youtube-music.mjs` generates `sites/youtube-music-rules.css` for the rules with fixed colors. |
 | WhatsApp | `sites/whatsapp.js` maps every fixed color (variables and StyleX rules) at runtime. Its green becomes the accent. |
+| Grok | Its shadcn-style tokens (dark mode). |
 | old Reddit, Penny Arcade, Edison Report, Inside Lighting, Daring Fireball, MMO-Champion, xkcd | The remap engine (below). |
 
 ## Install

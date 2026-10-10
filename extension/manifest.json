@@ -274,6 +274,19 @@
         "sites/whatsapp.js"
       ],
       "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://grok.com/*"
+      ],
+      "css": [
+        "base.css",
+        "sites/grok.css"
+      ],
+      "js": [
+        "theme.js"
+      ],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
@@ -313,7 +326,8 @@
         "*://mail.google.com/*",
         "*://open.spotify.com/*",
         "*://music.youtube.com/*",
-        "*://web.whatsapp.com/*"
+        "*://web.whatsapp.com/*",
+        "*://grok.com/*"
       ]
     }
   ]
